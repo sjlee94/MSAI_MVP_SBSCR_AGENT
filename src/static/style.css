@@ -1,0 +1,9 @@
+div[data-testid="stVerticalBlock"] > div:has(> div[data-testid="stVerticalBlock"]):nth-child(2) {
+    background-color: #444444;
+    padding: 24px 16px;
+    border-radius: 12px;
+    min-height: 600px;
+    max-height: 600px;
+    overflow-y: auto;
+    color: #fff !important;
+}
